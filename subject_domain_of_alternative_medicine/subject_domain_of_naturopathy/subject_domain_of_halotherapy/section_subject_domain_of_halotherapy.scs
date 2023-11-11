@@ -1,0 +1,10 @@
+section_of_halotherapy
+	=> nrel_main_idtf:
+		[Раздел. Предметная область галотерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of halotherapy] (* <- lang_en;; *);;
+section_of_halotherapy->rrel_key_sc_element:
+		subject_domain_of_halotherapy;
+		halotherapy;;
+
+section_of_halotherapy<-non_atomic_section;;

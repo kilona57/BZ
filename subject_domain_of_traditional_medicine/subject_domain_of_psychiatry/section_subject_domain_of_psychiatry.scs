@@ -1,0 +1,35 @@
+section_of_psychiatry
+	=> nrel_main_idtf:
+		[Раздел. Предметная область психиатрии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of psychiatry] (* <- lang_en;; *);;
+section_of_psychiatry<=nrel_section_decomposition:{
+	        section_of_child_psychiatry;
+		section_of_geriatric_psychiatry;//позднего возраста
+		section_of_military_psychiatry;//военная //судебная
+		section_of_forensic_psychiatry 
+};;		
+
+section_of_psychiatry->rrel_key_sc_element:
+        subject_domain_of_psychiatry;
+        psychiatry;
+        mentality;//психика
+        psychiatrist;
+        personality;//личность
+        psychiatric_disorder;//расстройство
+        psychotropic_substances;//психотропное средство 
+        behaviour;//поведение
+        emotions;//эмоции
+        memory;//память
+        thinking;//мышление
+        conscience;//сознание
+        hallucination;//галлюцинации
+        delusion;//бред
+        excitement;//возбуждение
+        anxiety;
+        disorders_mood;//расстройства настроения
+        disorders_personality;//расстройство личности
+        disorder_neurotic_disorders;//невротические расстройства
+        behavioral_syndrome;//поведенческий синдром //шизоактивные расстройства
+        schizoactive_disorders;;
+section_of_psychiatry<-non_atomic_section;;

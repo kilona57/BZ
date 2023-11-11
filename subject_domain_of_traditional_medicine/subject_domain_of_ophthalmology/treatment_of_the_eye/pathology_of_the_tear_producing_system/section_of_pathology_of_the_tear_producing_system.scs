@@ -1,0 +1,207 @@
+dacryodenite
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [дакриоденит]
+            (*<-lang_ru;;*);
+          [dacryodenite]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дакриоденит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Dacryodenite_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dacryodenite=> nrel_symptom:
+the_upper_eyelid_becomes_red_and_swollen;
+the_eyeball_bulges;
+the_formation_of_ulcers;
+fever;
+general_malaise;;
+                
+dacryodenite
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (дакриоденит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Dacryodenite_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+lacrimal_gland_cancer
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [рак слезной железы]
+            (*<-lang_ru;;*);
+          [lacrimal gland ancer]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (рак слезной железы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Lacrimal_gland_cancer_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+lacrimal_gland_cancer
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Виды опухолей)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Lacrima_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+lacrimal_gland_cancer=> nrel_symptom:
+pain_in_the_eyes_and_head;
+swelling;
+loss_of_vision;
+high_eye_pressure;
+delocalization_of_the_eyeball;;
+               
+lacrimal_gland_cancer
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (рак слезной железы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Lacrima_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+
+narrowing_lacrimal_opening
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сужение слезной точки]
+            (*<-lang_ru;;*);
+          [narrowing of the lacrimal opening]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сужение слезной точки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Narrowing_lacrimal_opening.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_tear/narrowing_lacrimal_opening.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+narrowing_lacrimal_opening=> nrel_symptom:
+constant_lacrimation;;
+               
+narrowing_lacrimal_opening
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (сужение слезной точки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Narrowing_lacrimal_opening_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+canaliculitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [каналикулит]
+            (*<-lang_ru;;*);
+          [canaliculitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (каналикулит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Canaliculitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_tear/canaliculitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+canaliculitis=> nrel_symptom:
+lacrimation;
+redness_on_the_eyelid_near_the_nose;
+moderate_soreness_on_the_eyelid_near_the_nose;;
+               
+canaliculitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (каналикулит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_tear_prod_sys/Canaliculitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+

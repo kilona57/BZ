@@ -1,0 +1,17 @@
+subject_domain_of_treatment_the_eye
+=>nrel_main_idtf: [Предметная область болезней глаза и его придатков] (* <- lang_ru;; *);
+[Subject domain of diseases of the eye] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+
+subject_domain_of_treatment_the_eye=>nrel_private_subject_domain:
+	
+		subject_domain_of_pathology_of_the_lens(*<-sc_node_struct;;*);
+		subject_domain_of_pathology_of_the_connective_membrane_of_the_eye(*<-sc_node_struct;;*);
+		subject_domain_of_pathology_of_the_eye_orbit_eyelids_tear_ducts(*<-sc_node_struct;;*);
+        subject_domain_of_pathology_of_the_optic_nerve(*<-sc_node_struct;;*);
+        subject_domain_of_pathology_of_the_tear_producing_system(*<-sc_node_struct;;*);;
+	
+  
+subject_domain_of_treatment_the_eye->rrel_maximum_studied_object_class:eye_disease;;
+subject_domain_of_treatment_the_eye->rrel_not_maximum_studied_object_class:eye;;
+subject_domain_of_treatment_the_eye<-subject_domain;;

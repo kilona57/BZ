@@ -1,0 +1,38 @@
+section_of_anatomy_of_the_eye
+	=> nrel_main_idtf:
+		[Раздел. Предметная область анатомии глаза человека]
+			(* <- lang_ru;; *);
+[Section. Subject domain of anatomy of the eye] (* <- lang_en;; *);;
+section_of_anatomy_of_the_eye<=nrel_section_decomposition:{
+	subject_domain_of_anatomy_of_the_eye
+};;
+section_of_anatomy_of_the_eye->rrel_key_sc_element:
+    eyeball;
+    lens;
+    auxiliary_apparatus;
+    eyelids;
+    conjunctiva;
+    eyeball_muscles; 
+    lacrimal_apparatus;
+    cornea;//роговица
+    eye_socket; 
+    lacrimal_gland;//слёзная железа
+    tear_ducts; //слёзоотводящие пути
+    tear_fluid;//Слёзная жидкость
+    tear_lake;//слезное озеро
+    lacrimal_papillae;//слезные сосочки
+    lacrimal_point;//слезная точка. 
+    lacrimal_ducts;//слезные канальца. 
+    lacrimal_sac;//слезный мешок.
+    nasolacrimal_canal;// носослезный канал 
+    nasolacrimal_duct; // носослёзный проток
+
+    pupil;//зрачок
+    iris;//радужная оболочка
+    sclera;//склера
+    retina;//сетчатка
+    optic_nerve;//зрительный нерв
+    vitreous_body;;//стекловидное тело
+section_of_anatomy_of_the_eye->rrel_explored_relation:
+    nrel_auxiliary_apparatus;;
+ 

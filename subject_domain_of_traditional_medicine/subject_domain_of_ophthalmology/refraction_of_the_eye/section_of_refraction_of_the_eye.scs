@@ -1,0 +1,669 @@
+nrel_violation_of_refraction
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+    => nrel_main_idtf:
+          [нарушение рефракции*]
+            (*<-lang_ru;;*);
+          [violation of refraction*]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (нарушение рефракции)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Refraction_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+nrel_violation_of_refraction
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (нарушение рефракции)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Refraction_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+	<= nrel_first_domain:
+        eye;
+    	<= nrel_second_domain:
+    	  nrel_disease;;
+refraction
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [рефракция]
+            (*<-lang_ru;;*);
+          [refraction]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (рефракция)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Refraction_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+refraction
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (рефракция)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Refract_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+                
+nrel_violation_of_accomodation
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+    => nrel_main_idtf:
+          [нарушение аккомодации*]
+            (*<-lang_ru;;*);
+          [nrel violation of accomodation*]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (нарушение аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accomodation.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+nrel_violation_of_accomodation
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (нарушение аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accomodation_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+	<= nrel_first_domain:
+        eye;
+    	<= nrel_second_domain:
+    	  nrel_violation_of_refraction;;
+    	  
+accomodation
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [аккомодация]
+            (*<-lang_ru;;*);
+          [accomodation]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (аккомодация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accomodat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+accomodation
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (аккомодация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accomodat_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+    	  
+                
+myopia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [миопия]
+            (*<-lang_ru;;*);
+          [myopia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (миопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Myopia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_refraction/myopia.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+myopia
+<- rrel_key_sc_element: ... 
+        (*
+          <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (Качество зрения при миопии)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Myopia_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+myopia=>nrel_symptom: "file://html_refraction_of_the_eye/Myopia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+              
+myopia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (миопии)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Myopia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_violation_of_refraction:eye;;
+
+hypermetropia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [гиперметропия]
+            (*<-lang_ru;;*);
+          [hypermetropia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гиперметропия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Hypermetropia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_refraction/hypermetropia.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+hypermetropia
+<- rrel_key_sc_element: ... 
+        (*
+          <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (Качество зрения при гиперметропии)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Hypermetropia_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+hypermetropia=>nrel_symptom: "file://html_refraction_of_the_eye/Hypermetropia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+hypermetropia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (гиперметропия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Hypermetropia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_violation_of_refraction:eye;;
+presbyopia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [пресбиопия]
+            (*<-lang_ru;;*);
+          [presbyopia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (пресбиопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Presbyopia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                     <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_refraction/presbyopia.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+presbyopia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (пресбиопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Presbyopia_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+						*);;
+        *);;
+               
+presbyopia=> nrel_symptom: "file://html_refraction_of_the_eye/Presbyopia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+presbyopia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (пресбиопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Presbyopia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_violation_of_accomodation:eye;;  
+anisometropia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [анизометропия]
+            (*<-lang_ru;;*);
+          [anisometropia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (анизометропия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Anisometropia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_refraction/anisometropia.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+anisometropia
+<- rrel_key_sc_element: ... 
+        (*
+          <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (Качество зрения при анизометропии)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Anisometropia_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+anisometropia=>nrel_symptom: "file://html_refraction_of_the_eye/Anisometropia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+             
+anisometropia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (анизометропия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Anisometropia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_violation_of_refraction:eye;;
+astigmatism
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [астигматизм]
+            (*<-lang_ru;;*);
+          [astigmatism]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (астигматизм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Astigmatism_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_refraction/astigmatism.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+astigmatism=>nrel_symptom: "file://html_refraction_of_the_eye/Astigmatism_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+astigmatism
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (астигматизм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Astigmatism_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_violation_of_refraction:eye;; 
+
+
+spasm_of_accommodation
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [спазм аккомодации]
+            (*<-lang_ru;;*);
+          [spasm of accommodation]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (спазм аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Spasm_of_accommodation.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+spasm_of_accommodation
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (спазм аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Spasm_of_accommodation_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+spasm_of_accommodation=>nrel_symptom: "file://html_refraction_of_the_eye/Spasm_of_accommodation_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+spasm_of_accommodation<=nrel_violation_of_accomodation:eye;;       
+PINA
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ПИНА]
+            (*<-lang_ru;;*);
+          [PINA]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ПИНА)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/PINA.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+PINA
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ПИНА)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/PINA_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+PINA
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ПИНА)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/PINA_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;        
+        *);;
+PINA=>nrel_symptom: "file://html_refraction_of_the_eye/PINA_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+               
+PINA<=nrel_violation_of_accomodation:eye;; 
+
+accommodation_paralysis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [паралич аккомодации]
+            (*<-lang_ru;;*);
+          [accommodation paralysis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (паралич аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accommodation_paralysis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+accommodation_paralysis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (паралич аккомодации)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Accommodation_paralysis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+accommodation_paralysis=>nrel_symptom: "file://html_refraction_of_the_eye/Accommodation_paralysis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+               
+accommodation_paralysis<=nrel_violation_of_accomodation:eye;; 
+                
+asthenopia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [астенопия]
+            (*<-lang_ru;;*);
+          [asthenopia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (астенопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Asthenopia.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+asthenopia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (астенопия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_refraction_of_the_eye/Asthenopia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                *);;
+asthenopia=>nrel_symptom: "file://html_refraction_of_the_eye/Asthenopia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+               
+asthenopia<=nrel_violation_of_accomodation:eye;; 
+

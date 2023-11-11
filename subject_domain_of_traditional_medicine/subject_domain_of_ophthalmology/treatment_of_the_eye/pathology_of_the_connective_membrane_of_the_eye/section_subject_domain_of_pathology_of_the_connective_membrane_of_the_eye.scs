@@ -1,0 +1,16 @@
+section_of_pathology_of_the_connective_membrane_of_the_eye
+	=> nrel_main_idtf:
+		[Раздел. Предметная область патологий соединительной оболочки глаза]
+			(* <- lang_ru;; *);
+[Section. Subject domain of pathology of the connective membrane of the eye] (* <- lang_en;; *);;
+section_of_pathology_of_the_connective_membrane_of_the_eye<=nrel_section_decomposition:{
+        subject_domain_of_pathology_of_the_connective_membrane_of_the_eye
+};;
+section_of_pathology_of_the_connective_membrane_of_the_eye->rrel_key_sc_element:
+    xerophthalmia;
+    conjunctivitis;
+    bacterial_conjunctivitis;
+    viral_conjunctivitis;
+    allergic_conjunctivitis;
+    non_infectious_conjunctivitis;
+    giant_papillary_conjunctivitis;;

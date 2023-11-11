@@ -1,0 +1,552 @@
+blepharitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [блефарит]
+            (*<-lang_ru;;*);
+          [blepharitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (блефарит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Blepharitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/blefarit.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+blepharitis=> nrel_symptom: 
+tissue_swelling;
+redness;
+burning;
+sensation_of_a_foreign_object_in_the_eye;
+itching;
+characteristic_discharge;
+bright_light_is_difficult_to_perceive;
+tearfulness;
+pain;
+dry_eyes;
+peeling_of_the_edges_of_the_eyelids;
+formation_of_purulent_scabs;;
+                
+blepharitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (блефарит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Blepharitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;   
+cryptophthalmos
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [криптофтальм]
+            (*<-lang_ru;;*);
+          [cryptophthalmos]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (криптофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Cryptophthalmos_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cryptophthalmos
+ <- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Последствия криптофтальма)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Cryptophthalmos_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cryptophthalmos=> nrel_symptom: 
+
+impaired_mobility_of_the_eyelids;
+severe;
+burning_pain;
+severe_dryness_of_the_eyes;
+itching;
+vision_is_greatly_reduced;;
+               
+cryptophthalmos
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (криптофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Cryptophthalmos_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+lagophthalmos
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [лагофтальм]
+            (*<-lang_ru;;*);
+          [lagophthalmos]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (лагофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Lagophthalmos_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/lagophthalmos.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+lagophthalmos=>nrel_symptom: 
+inability_to_close_the_eyelids_and_blink;
+dry_eyes;
+visual_impairment;
+sensation_of_a_foreign_object_in_the_eye;
+lacrimation;
+redness_of_the_eye;;
+              
+lagophthalmos
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (лагофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Lagophthalmos_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+inversion_of_the_eyelid
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [заворот века]
+            (*<-lang_ru;;*);
+          [inversion_of_the_eyelid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (заворот века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Inversion_of_the_eyelid_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/inversion_of_the_eyelid.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+inversion_of_the_eyelid=> nrel_symptom:
+irritation_of_the_eyeball;
+ulcers_on_the_cornea;
+visual_impairment;
+sensation_of_a_foreign_object_in_the_eye;
+lacrimation;
+redness_of_the_eye;
+asymmetrical_position_of_the_eyelids;
+eyelashes_on_the_eyelid_become_wet;;
+                
+inversion_of_the_eyelid
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (заворот века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Inversion_of_the_eyelid_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+
+edema_of_the_eyelid
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [отёк века]
+            (*<-lang_ru;;*);
+          [edema of the eyelid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (отёк века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Edema_of_the_eyelid_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/edema_of_the_eyelid.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+edema_of_the_eyelid=> nrel_symptom: 
+local_redness_of_the_skin;
+discomfort;
+soreness_of_the_eyes_increases_at_the_moment_of_touch;;
+
+edema_of_the_eyelid
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (отёк века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Edema_of_the_eyelid_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;; 
+barley
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ячмень]
+            (*<-lang_ru;;*);
+          [barley]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ячмень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Barley_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/barley.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+barley=> nrel_symptom: 
+swelling_of_the_edges_of_the_eyelids;
+redness;
+peeling;
+sensation_of_a_foreign_object_in_the_eye;
+lacrimation;
+loss_of_strength;
+fever;
+headache;;
+                
+barley
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ячмень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Barley_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+dacryocystitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [дакриоцистит]
+            (*<-lang_ru;;*);
+          [dacryocystitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дакриоцистит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Dacryocystitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/dacryocystitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+dacryocystitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Виды дакриоцистита)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Dacryocystitis_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dacryocystitis=> nrel_symptom: 
+painful_sensations;
+the_lacrimal_sac_is_red_and_swollen;
+suppuration_of_the_channels;
+constant_lacrimation;;
+                
+dacryocystitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (дакриоцистит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Dacryocystitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+blepharospasm
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [блефароспазм]
+            (*<-lang_ru;;*);
+          [blepharospasm]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (блефароспазм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Blepharospasm.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                
+        *);;
+
+blepharospasm=> nrel_symptom: 
+the_constant_desire_to_close_your_eyes;
+is_a_difficult_process_of_opening_the_eye_slit;;
+                
+blepharospasm
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (блефароспазм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Blepharospasm_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+ptosis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [птоз]
+            (*<-lang_ru;;*);
+          [ptosis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (птоз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Ptosis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/ptosis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+ptosis=> nrel_symptom: 
+partial_or_complete_lowering_of_the_edge_of_the_upper_eyelid;
+tilting_the_head_back_to_facilitate_the_opening_of_the_eye;
+decreased_visual_acuity_the_appearance_of_strabismus;
+constant_eye_fatigue;
+bifurcation_of_objects_in_front_of_the_eyes;;
+                
+ptosis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (птоз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Ptosis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+
+trichiasis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [трихиаз]
+            (*<-lang_ru;;*);
+          [trichiasis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (трихиаз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Trichiasis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_orbite/trichiasis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+trichiasis=> nrel_symptom: 
+redness_of_the_cornea;
+severe_lacrimation;
+the_occurrence_of_photophobia_and_pain_from_bright_light;
+the_sensation_of_a_foreign_object_in_the_eye;
+frequen_blinking;;
+                
+trichiasis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (трихиаз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit/Trichiasis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;

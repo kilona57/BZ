@@ -1,0 +1,209 @@
+cataract
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [катаракта]
+            (*<-lang_ru;;*);
+          [cataract]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (катаракта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Cataract_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_lens/katarakta-lechenie.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+cataract=> nrel_symptom:       
+        rapid_loss_of_vision;
+        inability_to_distinguish_objects_in_the_dark;
+        violation_in_the_perception_of_colors;
+        the_eyes_get_tired_quickly;
+        double_images;;
+               
+cataract
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (катаракта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Cataract_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+aphakia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [афакия]
+            (*<-lang_ru;;*);
+          [aphakia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (афакия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Aphakia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_lens/aphakia.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+aphakia=> nrel_symptom: 
+change_in_refraction_of_the_eye;
+lack_of_accommodation;
+trembling_of_the_iris;
+serious_deterioration_of_vision;;
+               
+aphakia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (афакия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Aphakia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+lenticonus
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [лентиконус]
+            (*<-lang_ru;;*);
+          [lenticonus]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (лентиконус)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Lenticonus_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_lens/lenticonus.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+lenticonus=> nrel_symptom:
+protrusion_of_the_lens_in_the_anterior_zone;
+decrease_in_visual_acuity;
+change_in_refraction_of_the_eye;;
+               
+lenticonus
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (лентиконус)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Lenticonus_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+coloboma
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [колобома]
+            (*<-lang_ru;;*);
+          [coloboma]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (колобома)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Coloboma_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_lens/coloboma.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+coloboma=> nrel_symptom:
+
+rapid_fatigue_of_the_eyeballs;
+loss_of_image_clarity;
+uncontrolled_twitching_of_the_pupil;
+increased_sensitivity_to_light_flux_and_related_eye_discomfort;
+double_vision_of_the_objects;
+under_consideration_the_appearance_of_strabismus;
+painful_sensations_in_the_eyeballs;
+the_appearance_of_dark_spots_in_the_eye;;
+               
+coloboma
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (колобома)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_lens/Coloboma_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="2384030622448" parent="2384030712448" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1236.56" y="347.67" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="conjunctivitis" shapeColor="0" id="2384030624112" parent="2384030712448" left="0" top="0" right="110" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1137.58" y="283.9" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2384030627648" parent="2384030712448" x="1140.15" y="446.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2384030700928" parent="2384030712448" id_b="2384030622448" id_e="2384030699488" b_x="1236.56" b_y="347.67" e_x="547.901" e_y="-473.333" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="1200.46" y="380.75"/>
+            </points>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2384030699488" parent="2384030712448" id_b="2384030624112" id_e="2384030627648" b_x="1137.58" b_y="283.9" e_x="1140.15" e_y="446.86" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="виды конъюнктивита" shapeColor="0" id="2384030712448" parent="0" left="0" top="0" right="200" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-127" idtf_pos_y="101">
+            <points>
+                <point x="1098.5" y="200.35"/>
+                <point x="1468.07" y="203.125"/>
+                <point x="1469.39" y="309.24"/>
+                <point x="1470.08" y="606.707"/>
+                <point x="1098.5" y="602.307"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2384030627440" parent="2384030717824" x="592.246" y="920.193" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="eye" shapeColor="0" id="2384030629728" parent="2384030717824" left="0" top="0" right="35" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="589.681" y="757.233" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_violation_of_refraction" shapeColor="0" id="2384030623488" parent="2384030717824" left="0" top="0" right="220" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="688.658" y="821.003" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2384030698048" parent="2384030717824" id_b="2384030629728" id_e="2384030627440" b_x="589.681" b_y="757.233" e_x="592.246" e_y="920.193" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2384030699008" parent="2384030717824" id_b="2384030623488" id_e="2384030698048" b_x="688.658" b_y="821.003" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="652.56" y="854.083"/>
+            </points>
+        </pair>
+        <contour type="contour/const/perm" idtf="Виды нарушения рефракции глаза" shapeColor="0" id="2384030717824" parent="0" left="0" top="0" right="298" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-114" idtf_pos_y="67">
+            <points>
+                <point x="550.599" y="673.683"/>
+                <point x="920.167" y="676.458"/>
+                <point x="921.491" y="782.573"/>
+                <point x="922.177" y="1080.04"/>
+                <point x="550.599" y="1075.64"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2384030626608" parent="2384030716672" x="108.147" y="414.01" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_structure" shapeColor="0" id="2384030627232" parent="2384030716672" left="0" top="0" right="118" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="198.559" y="330.82" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="lacrimal_apparatus" shapeColor="0" id="2384030627024" parent="2384030716672" left="0" top="0" right="153" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="99.582" y="267.05" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2384030698768" parent="2384030716672" id_b="2384030627024" id_e="2384030626608" b_x="99.582" b_y="267.05" e_x="108.147" e_y="414.01" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2384030700448" parent="2384030716672" id_b="2384030627232" id_e="2384030698768" b_x="198.559" b_y="330.82" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="162.461" y="363.9"/>
+            </points>
+        </pair>
+        <contour type="contour/const/perm" idtf="Строение слёзного аппарата" shapeColor="0" id="2384030716672" parent="0" left="0" top="0" right="257" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-129" idtf_pos_y="69">
+            <points>
+                <point x="60.5" y="183.5"/>
+                <point x="313.801" y="182.092"/>
+                <point x="314.8" y="299.573"/>
+                <point x="315.402" y="595.27"/>
+                <point x="60.5" y="585.46"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_structure" shapeColor="0" id="2384030629104" parent="2384030713024" left="0" top="0" right="118" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="540.559" y="330.228" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2384030622656" parent="2384030713024" x="450.147" y="413.418" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="eyeball" shapeColor="0" id="2384030623072" parent="2384030713024" left="0" top="0" right="63" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="441.582" y="266.458" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2384030700688" parent="2384030713024" id_b="2384030629104" id_e="2384030700208" b_x="540.559" b_y="330.228" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="504.461" y="363.308"/>
+            </points>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2384030700208" parent="2384030713024" id_b="2384030623072" id_e="2384030622656" b_x="441.582" b_y="266.458" e_x="450.147" e_y="413.418" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Строение глазного яблока" shapeColor="0" id="2384030713024" parent="0" left="0" top="0" right="238" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-114" idtf_pos_y="67">
+            <points>
+                <point x="402.5" y="182.908"/>
+                <point x="651.575" y="177.275"/>
+                <point x="655.392" y="301.798"/>
+                <point x="657.402" y="594.678"/>
+                <point x="402.5" y="584.868"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2384030628896" parent="2383985693344" x="776.133" y="420.221" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="eye" shapeColor="0" id="2383983200896" parent="2383985693344" left="0" top="0" right="35" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="767.568" y="273.261" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_disease" shapeColor="0" id="2383983205472" parent="2383985693344" left="0" top="0" right="105" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="866.545" y="337.031" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2384030695888" parent="2383985693344" id_b="2383983205472" id_e="2384030697088" b_x="866.545" b_y="337.031" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="830.447" y="370.111"/>
+            </points>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2384030697088" parent="2383985693344" id_b="2383983200896" id_e="2384030628896" b_x="767.568" b_y="273.261" e_x="776.133" e_y="420.221" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Заболевания глаза" shapeColor="0" id="2383985693344" parent="0" left="0" top="0" right="170" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-114" idtf_pos_y="67">
+            <points>
+                <point x="728.486" y="189.711"/>
+                <point x="980.378" y="192.528"/>
+                <point x="981.378" y="308.601"/>
+                <point x="983.388" y="601.481"/>
+                <point x="728.486" y="591.671"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2383983202976" parent="2383980826400" x="104.232" y="907.63" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_auxiliary_apparatus" shapeColor="0" id="2383983205264" parent="2383980826400" left="0" top="0" right="197" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="194.644" y="824.44" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="eye" shapeColor="0" id="2383983199648" parent="2383980826400" left="0" top="0" right="35" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="95.6665" y="760.67" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2383983686432" parent="2383980826400" id_b="2383983199648" id_e="2383983202976" b_x="95.6665" b_y="760.67" e_x="104.232" e_y="907.63" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2383910006320" parent="2383980826400" id_b="2383983205264" id_e="2383983686432" b_x="194.644" b_y="824.44" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="158.546" y="857.52"/>
+            </points>
+        </pair>
+        <contour type="contour/const/perm" idtf="Что такое вспомогательный аппарат глаза?" shapeColor="0" id="2383980826400" parent="0" left="0" top="0" right="400" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-208" idtf_pos_y="74">
+            <points>
+                <point x="56.5845" y="677.12"/>
+                <point x="465.786" y="680.345"/>
+                <point x="466.42" y="787.235"/>
+                <point x="467.487" y="1072.89"/>
+                <point x="56.5845" y="1079.08"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/general" idtf="eye" shapeColor="0" id="2383985122016" parent="2383980821024" left="0" top="0" right="35" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1093.58" y="732.9" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="2383985117856" parent="2383980821024" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1205" y="913" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2383985117440" parent="2383980821024" x="1102.15" y="879.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_violation_of_refraction" shapeColor="0" id="2383985116608" parent="2383980821024" left="0" top="0" right="220" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1192.56" y="796.67" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2383985117232" parent="2383980821024" x="1106" y="973" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2383983686192" parent="2383980821024" id_b="2383985122016" id_e="2383985117440" b_x="1093.58" b_y="732.9" e_x="1102.15" e_y="879.86" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2383983685952" parent="2383980821024" id_b="2383985117856" id_e="2383983685712" b_x="1205" b_y="913" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.508188">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2383983685712" parent="2383980821024" id_b="2383985117440" id_e="2383985117232" b_x="1102.15" b_y="879.86" e_x="1106" e_y="973" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2383983679712" parent="2383980821024" id_b="2383985116608" id_e="2383983686192" b_x="1192.56" b_y="796.67" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="1156.46" y="829.75"/>
+            </points>
+        </pair>
+        <contour type="contour/const/perm" idtf="Симптомы всех видов нарушения рефракции глаза" shapeColor="0" id="2383980821024" parent="0" left="0" top="0" right="443" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-216" idtf_pos_y="150">
+            <points>
+                <point x="1054.5" y="649.35"/>
+                <point x="1519.07" y="652.125"/>
+                <point x="1517.39" y="758.24"/>
+                <point x="1519.08" y="1049.71"/>
+                <point x="1054.5" y="1051.31"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

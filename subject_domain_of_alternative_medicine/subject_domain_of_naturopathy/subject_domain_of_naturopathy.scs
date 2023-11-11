@@ -1,0 +1,46 @@
+subject_domain_of_naturopathy
+=>nrel_main_idtf: [Предметная область натуропатии] (* <- lang_ru;; *);
+[Subject domain of naturopathy] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+subject_domain_of_naturopathy=>nrel_private_subject_domain:
+	
+		subject_domain_of_aromatherapy(*<-sc_node_struct;;*);//аромотерапия
+		subject_domain_of_aerophytotherapy(*<-sc_node_struct;;*);//аэрофитотерапия
+		subject_domain_of_apitherapy(*<-sc_node_struct;;*);//апитерапия
+		subject_domain_of_aeroionotherapy(*<-sc_node_struct;;*);//аэроинотерапия
+		subject_domain_of_halotherapy(*<-sc_node_struct;;*);//галотерапия
+		subject_domain_of_heliotherapy(*<-sc_node_struct;;*);//гелиотерапия
+		subject_domain_of_hydrotherapy(*<-sc_node_struct;;*);//гидротерапия
+		subject_domain_of_hirudotherapy(*<-sc_node_struct;;*);//гирудотерапия
+		subject_domain_of_dendrotherapy(*<-sc_node_struct;;*);//дендротерапия
+		subject_domain_of_lithotherapy(*<-sc_node_struct;;*);//литотерапия
+		subject_domain_of_music_therapy(*<-sc_node_struct;;*);//музыкотерапия
+		subject_domain_of_thalassotherapy(*<-sc_node_struct;;*);//талассотерапия
+		subject_domain_of_therapeutic_fasting(*<-sc_node_struct;;*);//лечебное голодание 
+		subject_domain_of_phytotherapy(*<-sc_node_struct;;*);//фитотерапия
+		subject_domain_of_florotherapy(*<-sc_node_struct;;*);//флоротерапия
+		subject_domain_of_fungotherapy(*<-sc_node_struct;;*);//фунготерапия //энотерапия 
+		subject_domain_of_enotherapy(*<-sc_node_struct;;*);;
+
+		
+subject_domain_of_naturopathy->rrel_not_maximum_studied_object_class:
+		aromatherapy;
+		aerophytotherapy;	
+		apitherapy;
+		aeroionotherapy;
+		halotherapy;
+		heliotherapy;
+		hydrotherapy;
+		hirudotherapy;
+		dendrotherapy;
+		lithotherapy;
+		music_therapy;			
+		thalassotherapy;
+		therapeutic_fasting;
+		phytotherapy;
+		florotherapy;
+		fungotherapy;
+		enotherapy;;
+
+subject_domain_of_naturopathy->rrel_maximum_studied_object_class:naturopathy;;
+subject_domain_of_naturopathy<-subject_domain;;

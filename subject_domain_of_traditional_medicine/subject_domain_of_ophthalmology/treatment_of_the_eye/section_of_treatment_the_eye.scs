@@ -1,0 +1,21 @@
+eye_disease
+<-sc_node_norole_relation;
+    => nrel_main_idtf:
+          [болезни глаза]
+            (*<-lang_ru;;*);
+          [eye disease]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (болезни глаза)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_treatment/Eye_disease_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

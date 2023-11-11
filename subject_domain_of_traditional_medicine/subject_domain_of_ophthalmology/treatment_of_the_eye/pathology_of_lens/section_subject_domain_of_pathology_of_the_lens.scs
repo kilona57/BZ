@@ -1,0 +1,15 @@
+section_of_pathology_of_the_lens
+	=> nrel_main_idtf:
+		[Раздел. Предметная область патологии хрусталика]
+			(* <- lang_ru;; *);
+[Section. Subject domain of pathology of the lens] (* <- lang_en;; *);
+<- not_enough_formed_structure;;
+
+section_of_pathology_of_the_lens<=nrel_section_decomposition:{
+        subject_domain_of_pathology_of_the_lens
+};;
+section_of_pathology_of_the_lens->rrel_key_sc_element:
+    cataract;
+	aphakia;
+	lenticonus;
+	coloboma;;

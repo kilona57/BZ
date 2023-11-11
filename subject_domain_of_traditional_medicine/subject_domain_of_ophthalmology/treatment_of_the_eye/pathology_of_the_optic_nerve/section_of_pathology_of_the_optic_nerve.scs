@@ -1,0 +1,209 @@
+glaucoma
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [глаукома]
+            (*<-lang_ru;;*);
+          [glaucoma]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (глаукома)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Glaucoma_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_nerve/glaucoma.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+glaucoma=> nrel_symptom:
+violation_of_lateral_vision;
+black_spots;
+nebula_of_the_image;
+the_inability_to_distinguish_objects_in_the_dark;
+with_bright_light_appear_colored_rings;;
+               
+glaucoma
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (глаукома)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Glaucoma_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+ischemic_neuropathy_of_the_optic_nerve
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ишемическая нейропатия оптического нерва]
+            (*<-lang_ru;;*);
+          [ischemic neuropathy of the optic nerve]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ишемическая нейропатия оптического нерва )] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Ischemic_neuropathy_of_the_optic_nerve_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_nerve/ischemic_neuropathy_of_the_optic_nerve.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+ischemic_neuropathy_of_the_optic_nerve=> nrel_symptom:
+decreased_visual_acuity;
+the_appearance_of_blind_spots_in_some_areas;
+a_decrease_in_the_viewing_angle;
+of_periodic_blurred_vision;
+pain_behind_the_eye;
+headache;;
+               
+ischemic_neuropathy_of_the_optic_nerve
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ишемическая нейропатия оптического нерва)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Ischemic_neuropathy_of_the_optic_nerve_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+neuritis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [неврит]
+            (*<-lang_ru;;*);
+          [neuritis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (неврит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Neuritis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_nerve/neuritis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+neuritis=> nrel_symptom: 
+vision_decreases_sharply_and_its_fields_narrow;
+the_ability_to_perceive_colors_and_distinguish_tones_is_impaired;
+spots_or_flickers_constantly_or_periodically_appear_before_the_eyes;
+there_is_pain_in_the_orbital_area_which_increases_with_eye_movements;
+the_pupillary_reaction_on_the_affected_eye_is_disrupted;
+visual_impairment;;
+                
+neuritis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (неврит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Neuritis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+nerve_atrophy
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [атрофия нерва]
+            (*<-lang_ru;;*);
+          [nerve atrophy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (атрофия нерва)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Nerve_atrophy_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_nerve/nerve_atrophy.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+nerve_atrophy=> nrel_symptom: 
+impaired_color_perception;
+impaired_viewing_angle;
+impaired_vision;
+blindness;;
+                
+nerve_atrophy
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (атрофия нерва)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_optic_nerve/Nerve_atrophy_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;

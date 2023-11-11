@@ -1,0 +1,61 @@
+section_of_dermatology
+	=> nrel_main_idtf:
+		[Раздел. Предметная область дерматологии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of dermatology] (* <- lang_en;; *);;
+section_of_dermatology<=nrel_section_decomposition:{
+	    section_of_dermatovenerology; //дерматовенирология
+		section_of_dermatooncology; //дерматоонкология
+		section_of_trichology; //трихология дерматокосметология
+		section_of_dermatocosmetology
+};;		
+		section_of_dermatology->rrel_key_sc_element:
+		subject_domain_of_dermatology;
+        dermatology;//дерматология
+        dermatologist;//дерматолог
+        dermatologist_venereologist;//дерматолог-венеролог
+        dermatologist_oncologist;//дерматолог-онколог
+        dermatologist_trichologist;//дерматолог-трихолог
+        dermatologist_cosmetologist;//дерматолог-косметолог
+        dermatologist_allergist;//дерматолог-аллерголог
+        skin_covers;//кожные покровы
+        epidermis;//эпидермис
+        derma;//дерма
+        hypoderm;//гиподерма
+        hair;//волос
+        stratum_corneum;//роговой слой
+        basal_layer;//базальный слой
+        papillary_layer;//сосочковый слой
+        collagen_fibers;//коллагеновые волокна
+        mesh_layer;//сетчатый слой
+        keratinocytes;//кератиноциты
+        sebaceous_gland;//сальная железа
+        deep_vascular_network;//глубокая сосудистая сеть
+        fibroblasts;//фибробласты
+        skin_functions;//функции кожи
+        nail;//ноготь
+        matrix;//матрикс
+        eponychius;//эпонихий
+        cuticle;//кутикула
+        hole;//лунка
+        nail_bed;//ногтевое ложе
+        nail_plate;//ногтевая пластина
+        side_nail_roller;//боковой валик ногтя
+        nail_sinus;//ногтевая пазуха
+        nail_body;//тело ногтя
+        free_edge;//свободный край
+        hyponychius;//гипонихий
+        itching;//зуд
+        peeling;//шелушение 
+        dandruff;//перхоть
+//------------------------------------------------------------------------------------------------------------------------->
+        skin_diseases_due_to_fungal_lesions_of_the_skin_area;//кожные заболевания вследствие грибкового поражения участка кожного покрова
+        skin_lesions_of_an_infectious_nature;//поражения кожи инфекционного характера
+        viral_skin_lesions ;//поражения кожи вирусного характера 
+        parasitic_skin_lesions;//поражения кожи паразитного типа
+        inflammation_of_the_glands;//воспаления желез
+        dermatitis_and_problematic_skin_in_adolescents;//дерматиты и проблемная кожа у подростков //аллергические высыпания
+        allergic_rashes;;
+
+
+        section_of_dermatology<-non_atomic_section;;

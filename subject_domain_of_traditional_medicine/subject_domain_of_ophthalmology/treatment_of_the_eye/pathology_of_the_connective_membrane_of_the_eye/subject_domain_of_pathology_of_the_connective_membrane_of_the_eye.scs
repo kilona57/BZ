@@ -1,0 +1,11 @@
+subject_domain_of_pathology_of_the_connective_membrane_of_the_eye
+	=> nrel_main_idtf:
+		[Предметная область патологий соединительной оболочки глаза]
+			(* <- lang_ru;; *);
+[Subject domain of pathology of the onnective membrane of the eye] (* <- lang_en;; *);
+<- not_enough_formed_structure;;
+
+
+subject_domain_of_pathology_of_the_connective_membrane_of_the_eye->rrel_maximum_studied_object_class:xerophthalmia;;
+subject_domain_of_pathology_of_the_connective_membrane_of_the_eye->rrel_not_maximum_studied_object_class:eye;;
+subject_domain_of_pathology_of_the_connective_membrane_of_the_eye<-subject_domain;;

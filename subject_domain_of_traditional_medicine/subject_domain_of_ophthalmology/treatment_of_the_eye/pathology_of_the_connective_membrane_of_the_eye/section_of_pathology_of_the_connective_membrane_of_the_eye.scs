@@ -1,0 +1,402 @@
+xerophthalmia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ксерофтальмия]
+            (*<-lang_ru;;*);
+          [xerophthalmia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ксерофтальмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Xerophthalmia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/xerophthalmia.jpeg"
+             (*
+                 => nrel_format: format_jpeg;;
+             *);;
+         *);;
+        *);;
+
+xerophthalmia=> nrel_symptom: 
+sensation_of_a_foreign_body_sand_in_the_conjunctival_cavity;
+redness;
+burning_and_pain_in_the_eyes;
+lacrimation;
+hypersensitivity_to_light;
+fatigue;
+blurry_vision;;
+             
+xerophthalmia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ксерофтальмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Xerophthalmia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;   
+conjunctivitis        
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [конъюнктивит]
+            (*<-lang_ru;;*);
+          [conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Conjunctivitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/conjunctivitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);
+
+=>nrel_inclusion:
+    bacterial_conjunctivitis;
+    viral_conjunctivitis;
+    allergic_conjunctivitis;
+    non_infectious_conjunctivitis;
+    giant_papillary_conjunctivitis;;
+
+conjunctivitis=>nrel_symptom:
+    
+discharge_of_turbid_fluid_from_the_affected_mucous_membrane_of_the_eye;
+the_feeling_of_a_foreign_object_on_the_inner_surface_of_the_eyelids;
+increased_sensitivity_to_light;
+temporary_decrease_in_visual_acuity;
+isolation_of_a_small_amount_of_blood_from_the_inflamed_conjunctiva;;
+
+conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*        
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Заражение конъюнктивитом)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Conjunctivitis_statement_2.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
+
+conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;  
+bacterial_conjunctivitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [бактериальный конъюнктивит]
+            (*<-lang_ru;;*);
+          [bacterial conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (бактериальный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Bacterial_conjunctivitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/bacterial_conjunctivitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+
+             
+bacterial_conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (бактериальный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Bacterial_conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+bacterial_conjunctivitis=> nrel_symptom:
+redness_and_inflammation_of_the_eyes;
+a_feeling_of_a_foreign_body_in_the_eye;
+conjunctival_edema;
+tear;
+swelling_of_the_eyelids;
+spot_hemorrhages_from_small_vessels;
+purulent_discharge_from_the_eyes;
+sticking_of_eyelashes_after_sleep_due_to_secretions;;
+
+viral_conjunctivitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [вирусный конъюнктивит]
+            (*<-lang_ru;;*);
+          [viral conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (вирусный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Viral_conjunctivitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/viral_conjunctivitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+
+             
+viral_conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (вирусный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Viral_conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+viral_conjunctivitis=> nrel_symptom:
+redness_and_inflammation_of_the_eyes;
+pus_which_causes_the_eyelashes_to_stick_together_itching_and_burning;
+itching_and_burning;
+tearing;
+swollen_eyelids;
+blurred_vision;
+feeling_of_sand_in_the_eyes;
+photophobia;;
+
+allergic_conjunctivitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [аллергический конъюнктивит]
+            (*<-lang_ru;;*);
+          [allergic conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (аллергический конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Allergic_conjunctivitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                 <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/allergic_conjunctivitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+
+             
+allergic_conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (аллергический конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Allergic_conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+allergic_conjunctivitis=> nrel_symptom:
+bilateral_redness_and_swelling_of_the_eyes;
+copious_lacrimation;
+itching_and_burning_in_the_eyes;
+the_appearance_of_serous_transparent_discharge;;
+
+non_infectious_conjunctivitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [неинфекционный конъюнктивит]
+            (*<-lang_ru;;*);
+          [non-infectious conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (неинфекционный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Non_infectious_conjunctivitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+             
+non_infectious_conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (неинфекционный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Non_infectious_conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+non_infectious_conjunctivitis=> nrel_symptom:
+tearfulness;
+swollen_eyelids;
+the_appearance_of_mucus_clots;;
+
+giant_papillary_conjunctivitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [гигантский папиллярный конъюнктивит]
+            (*<-lang_ru;;*);
+          [giant papillary conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гигантский папиллярный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Giant_papillary_conjunctivitis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo_membrane/giant_papillary_conjunctivitis.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+
+
+             
+giant_papillary_conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (гигантский папиллярный конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_con_membrane/Giant_papillary_conjunctivitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:eye;;
+giant_papillary_conjunctivitis=> nrel_symptom:
+
+intolerance_to_contact_lenses;
+itching;
+strong_discharge;
+formation_of_cracks_and_red_growths_on_the_underside_of_the_eyelids;;

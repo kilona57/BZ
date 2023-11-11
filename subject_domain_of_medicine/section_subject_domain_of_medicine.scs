@@ -1,0 +1,53 @@
+section_of_medicine
+	=> nrel_main_idtf:
+		[Раздел. Предметная область медицины]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of medicine] (* <- lang_en;; *);;
+section_of_medicine<=nrel_section_decomposition:{
+        section_of_traditional_medicine;
+        section_of_alternative_medicine
+};;
+section_of_medicine->rrel_key_sc_element:
+        subject_domain_of_medicine;
+        medicine;//медицина
+        health;//здоровье
+        organism;//организм
+        organ;//орган
+        drug;//медикамент
+        prescription;//рецепт
+        doctor;//врач
+        patient;//пациент
+        diagnosis;//диагноз        
+        blood;//кровь
+        red_blood_cells;//эритроциты
+        white_blood_cells;//лейкоциты
+        platelet;//тромбоциты
+        urine;//моча
+        analysis;//анализ
+        immune_system;//иммунная система
+        chromosome;//хромосома
+        tissue;//ткань//антитело
+        antibody;;
+section_of_medicine->rrel_explored_relation:
+        nrel_disease;//заболевание
+        nrel_rehabilitation;//реабилитация
+        nrel_diagnostics;//диагностика
+        nrel_prevention;//профилактика
+        nrel_examination;//обследование
+        nrel_disability;//инвалидность
+        nrel_symptom;//симптом
+        nrel_syndrome;//синдром
+        nrel_cure;//лечение
+        nrel_active_substance;//действующее вещество
+        nrel_structure;//строение //месторасположение
+        nrel_location;;
+section_of_alternative_medicine<-non_atomic_section;;
+	
+	
+	
+	
+
+
+	
+
+

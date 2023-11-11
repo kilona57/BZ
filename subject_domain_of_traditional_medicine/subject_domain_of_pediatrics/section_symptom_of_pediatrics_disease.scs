@@ -1,0 +1,154 @@
+dystrophy=> nrel_symptom: "file://symptom/dystrophy_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+stomatitis=> nrel_symptom: "file://symptom/stomatitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+asphyxia_of_newborns=>nrel_symptom: "file://symptom/asphyxia_of_newborns_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+birth_trauma=> nrel_symptom: "file://symptom/birth_trauma_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+hemolytic_disease_of_newborns=>nrel_symptom: "file://symptom/hemolytic_disease_of_newborns_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+rickets=>nrel_symptom: "file://symptom/rickets_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+ari=>nrel_symptom: "file://symptom/ari_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+infectious_disease=>nrel_symptom: "file://symptom/infectious_disease_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+hypotrophy=>nrel_symptom: "file://symptom/hypotrophy_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+paratrophy=>nrel_symptom: "file://symptom/paratrophy_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+generic_tumor=>nrel_symptom: "file://symptom/generic_tumor_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+hemorrhages_under_aponeurosis=>nrel_symptom: "file://symptom/hemorrhages_under_aponeurosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+kefalogematoma=>nrel_symptom: "file://symptom/kefalogematoma_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+facial_nerve_paralysis=>nrel_symptom: "file://symptom/facial_nerve_paralysis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+spinal_cord_rupture=>nrel_symptom: "file://symptom/spinal_cord_rupture_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+jaundice_form_of_HDN=>nrel_symptom: "file://symptom/jaundice_form_of_HDN_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+anemic_form_of_HDN=>nrel_symptom: "file://symptom/anemic_form_of_HDN_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+acute_rhinitis=>nrel_symptom: "file://symptom/acute_rhinitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+acute_pharyngitis=>nrel_symptom: "file://symptom/acute_pharyngitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+acute_tracheotracheitisa=>nrel_symptom: "file://symptom/acute_tracheotracheitisa_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+bronchitis=>nrel_symptom: "file://symptom/bronchitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+pneumonia=>nrel_symptom: "file://symptom/pneumonia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+bronchial_asthm=>nrel_symptom: "file://symptom/bronchial_asthm_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+tuberculosis=> nrel_symptom: "file://symptom/tuberculosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+diphtheria=>nrel_symptom: "file://symptom/diphtheria_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+scarlet=> nrel_symptom: "file://symptom/scarlet_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+              
+
+fever_mumps=>nrel_symptom: "file://symptom/fever_mumps_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+           
+
+chickenpox=>nrel_symptom: "file://symptom/chickenpox_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+ 
+
+whooping=>nrel_symptom: "file://symptom/whooping_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+        
+
+cough_measles=>nrel_symptom: "file://symptom/cough_measles_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+            
+rubella=>nrel_symptom: "file://symptom/rubella_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+

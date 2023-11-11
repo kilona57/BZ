@@ -1,0 +1,1315 @@
+eyeball
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [глазное яблоко]
+            (*<-lang_ru;;*);
+          [eyeball]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (глазное яблоко)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyeball_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/eyeball.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+
+eyeball
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (глазное яблоко)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyeball_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    =>nrel_location:
+      eye_socket;
+<=nrel_structure:
+eye;;
+
+lens
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [хрусталик]
+            (*<-lang_ru;;*);
+          [lens]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (хрусталик)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lens_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/lens.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+lens
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (хрусталик)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lens_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    <=nrel_structure:
+      eyeball;;
+
+nrel_auxiliary_apparatus
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+    => nrel_main_idtf:
+          [вспомогательный аппарат*]
+            (*<-lang_ru;;*);
+          [auxiliary apparatus*]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (вспомогательный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nrel_auxility_apparatus_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/auxiliary_apparatus.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+nrel_auxiliary_apparatus
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (вспомогательный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nrel_auxility_apparatus_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+	<= nrel_first_domain:
+        eye;
+    	<= nrel_second_domain:
+    	  nrel_structure;;
+    
+
+auxiliary_apparatus
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [вспомогательный аппарат]
+            (*<-lang_ru;;*);
+          [auxiliary apparatus]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (вспомогательный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nrel_auxility_apparatus_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://photo/auxiliary_apparatus.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+         *);;
+        *);;
+auxiliary_apparatus
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (вспомогательный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nrel_auxility_apparatus_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    <=nrel_structure:
+      eye;; 
+ 
+
+eyelids
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [веки]
+            (*<-lang_ru;;*);
+          [eyelids]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (веки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyelids_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/eyelids.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+eyelids
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (веки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyelids_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    <=nrel_auxiliary_apparatus:
+      eye;;
+
+
+conjunctiva
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [конъюнктива]
+            (*<-lang_ru;;*);
+          [conjunctiva]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (конъюнктива)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Conjunctiva_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://photo/conjunctiva.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+         *);;
+        *);;
+
+conjunctiva
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Кровоснабжение конъюнктивы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Conjunctiva_statement_blood.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+conjunctiva
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Функции конъюнктивы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Conjunctiva_statement_fuction.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+conjunctiva
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (конъюнктива)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Conjunctiva_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+      <=nrel_auxiliary_apparatus:
+        eye;;
+
+
+eyeball_muscles
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [мышцы глазного яблока]
+            (*<-lang_ru;;*);
+          [eyeball muscles]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (мышцы глазного яблока)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyeball_muscles_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/eyeball_muscles.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+eyeball_muscles
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Перечень мышц глазного яблока)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyeball_muscles_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+eyeball_muscles
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (мышцы глазного яблока)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eyeball_muscles_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+    <=nrel_auxiliary_apparatus:
+      eye;;
+
+lacrimal_apparatus
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слёзный аппарат]
+            (*<-lang_ru;;*);
+          [lacrimal apparatus]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слёзный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_apparatus_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/lacrimal_apparatus.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+      *);;
+        *);;
+lacrimal_apparatus
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слёзный аппарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_apparatus_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+    <=nrel_auxiliary_apparatus:
+      eye;;
+
+
+
+cornea
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [роговица]
+            (*<-lang_ru;;*);
+          [cornea]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (роговица)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Cornea_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://photo//cornea.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+         *);;
+        *);;
+cornea
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (роговица)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Cornea_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    <=nrel_structure:
+      eyeball;;
+ 
+eye_socket
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [глазница]
+            (*<-lang_ru;;*);
+          [eye socket]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (глазница)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eye_socket_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/eye_socket.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);; 
+eye_socket
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (глазница)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Eye_socket_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);; 
+
+lacrimal_gland
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слёзная железа]
+            (*<-lang_ru;;*);
+          [lacrimal gland]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слёзная железа)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_gland_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+lacrimal_gland
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Расположение слёзной железы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_gland_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo//lacrimal_gland.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+lacrimal_gland
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слёзная железа)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_gland_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+tear_ducts
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слёзоотводящие пути]
+            (*<-lang_ru;;*);
+          [tear ducts]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слёзоотводящие пути)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_ducts_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo//tear_ducts.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
+         *);;
+        *);;
+tear_ducts
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слёзоотводящие пути)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_ducts_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+
+tear_fluid  
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [cлёзная жидкость]
+            (*<-lang_ru;;*);
+          [tear fluid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (cлёзная жидкость)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_fluid_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/tear_ducts.png"
+             (*
+                 => nrel_format: format_png;;
+             *);;
+         *);;
+        *);;
+tear_fluid
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (cлёзная жидкость)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_fluid_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+      <=nrel_structure:
+      lacrimal_apparatus;;
+ 
+     
+tear_lake
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слезное озеро]
+            (*<-lang_ru;;*);
+          [tear lake]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слезное озеро)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_lake_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/tear_lake.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+tear_lake
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слезное озеро)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Tear_lake_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+      <=nrel_structure:
+      lacrimal_apparatus;;
+ 
+lacrimal_papillae
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слезные сосочки]
+            (*<-lang_ru;;*);
+          [lacrimal papillae]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слезные сосочки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_papillae_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://photo/lacrimal_papillae.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
+         *);;
+        *);;
+lacrimal_papillae
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слезные сосочки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_papillae_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+
+lacrimal_point
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слезная точка]
+            (*<-lang_ru;;*);
+          [lacrimal point]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слезная точка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_point_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+             <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://photo/lacrimal_papillae.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+         *);;
+        *);;
+lacrimal_point
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слезная точка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_point_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+
+lacrimal_ducts
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слезные канальца]
+            (*<-lang_ru;;*);
+          [lacrimal ducts]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слезные канальца)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_ducts_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+                <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/lacrimal_ducts.png"
+             (*
+                 => nrel_format: format_png;;
+             *);;
+         *);;
+        *);;
+lacrimal_ducts
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слезные канальца)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_ducts_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+lacrimal_sac
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [слезный мешок]
+            (*<-lang_ru;;*);
+          [lacrimal sac]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (слезный мешок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_sac_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/lacrimal_sac.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+lacrimal_sac
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (слезный мешок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Lacrimal_sac_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+nasolacrimal_canal
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [носослезный канал]
+            (*<-lang_ru;;*);
+          [nasolacrimal canal]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (носослезный канал)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nasolacrimal_canal_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/nasolacrimal_canal.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+nasolacrimal_canal
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (носослезный канал)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nasolacrimal_canal_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+
+nasolacrimal_duct
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [носослёзный проток]
+            (*<-lang_ru;;*);
+          [nasolacrimal duct]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (носослёзный проток)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nasolacrimal_duct_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+nasolacrimal_duct
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (носослёзный проток)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Nasolacrimal_duct_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+      <=nrel_structure:
+      lacrimal_apparatus;;
+pupil
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [зрачок]
+            (*<-lang_ru;;*);
+          [pupil]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (зрачок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Pupil_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/pupil.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+pupil
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (зрачок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Pupil_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+    <=nrel_structure:
+      eyeball;;
+iris
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [радужка]
+            (*<-lang_ru;;*);
+          [iris]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (радужка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Iris_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/sclera.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+iris
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (радужка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Iris_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+        <=nrel_structure:
+      eyeball;;
+
+sclera
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [склера]
+            (*<-lang_ru;;*);
+          [sclera]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (склера)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Sclera_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/sclera.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+sclera
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (склера)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Sclera_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_structure:
+      eyeball;;
+retina
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сетчатка]
+            (*<-lang_ru;;*);
+          [retina]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сетчатка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Retina_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/retina.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+      
+retina
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (сетчатка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Retina_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+retina
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Функция сетчатки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Retina_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+        <=nrel_structure:
+      eyeball;;
+
+optic_nerve
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [зрительный нерв]
+            (*<-lang_ru;;*);
+          [optic nerve]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (зрительный нерв)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Optic_nerve_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/optic_nerve.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+optic_nerve
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (зрительный нерв)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Optic_nerve_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+        <=nrel_structure:
+      eyeball;;
+
+vitreous_body
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [стекловидное тело]
+            (*<-lang_ru;;*);
+          [vitreous body]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (стекловидное тело)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Vitreous_body_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+            <- illustration;;
+         <= nrel_sc_text_translation: ... (*
+             -> rrel_example: "file://photo/vitreous_body.jpg"
+             (*
+                 => nrel_format: format_jpg;;
+             *);;
+         *);;
+        *);;
+vitreous_body
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (стекловидное тело)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_anatomy/Vitreous_body_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+        <=nrel_structure:
+      eyeball;;
