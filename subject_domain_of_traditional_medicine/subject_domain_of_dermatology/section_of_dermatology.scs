@@ -272,29 +272,6 @@ matrix
          <=nrel_structure:nail;;
 
 
-eponychius 
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-            [эпонихий]
-            (*<-lang_ru;;*);
-            [eponychius]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (эпонихий)] (* <- lang_ru;; *);;
-            
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://definition/eponychius.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
-        *);
-        <=nrel_structure:nail;;
-
 
 nail_plate 
     <-sc_node_not_relation;
