@@ -231,7 +231,7 @@ nail
 
 nail=>nrel_inclusion:         
         matrix;//матрикс//ногтевая пластина
-        nail_plate;;
+        nail_plate;
 
     <- rrel_key_sc_element: ... 
         (*
