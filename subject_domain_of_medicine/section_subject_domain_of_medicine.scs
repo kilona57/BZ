@@ -13,15 +13,15 @@ section_of_medicine->rrel_key_sc_element:
         health;//здоровье
         organism;//организм
         organ;//орган
-        drug;//медикамент
+        medication;//медикамент
         prescription;//рецепт
         doctor;//врач
         patient;//пациент
         diagnosis;//диагноз        
         blood;//кровь
-        red_blood_cells;//эритроциты
-        white_blood_cells;//лейкоциты
-        platelet;//тромбоциты
+        erythrocyte;//эритроциты
+        leucocyte;//лейкоциты
+        platelets;//тромбоциты
         urine;//моча
         analysis;//анализ
         immune_system;//иммунная система
@@ -37,10 +37,9 @@ section_of_medicine->rrel_explored_relation:
         nrel_disability;//инвалидность
         nrel_symptom;//симптом
         nrel_syndrome;//синдром
-        nrel_cure;//лечение
-        nrel_active_substance;//действующее вещество
-        nrel_structure;//строение //месторасположение
-        nrel_location;;
+        nrel_treatment;//лечение
+        nrel_active_substance;//действующее вещество//строение
+        nrel_structure;;
 section_of_alternative_medicine<-non_atomic_section;;
 	
 	

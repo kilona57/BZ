@@ -13,7 +13,7 @@ medicine
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Medicine_idtf.html" (*
+                    -> rrel_example: "file://definition/medicine.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -35,7 +35,7 @@ health
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Health_idtf.html" (*
+                    -> rrel_example: "file://definition/health.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -57,7 +57,7 @@ organism
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Organism_idtf.html" (*
+                    -> rrel_example: "file://definition/organism.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -79,7 +79,7 @@ organ
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Organ_idtf.html" (*
+                    -> rrel_example: "file://definition/organ.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -106,7 +106,7 @@ nrel_disease
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Disease_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_disease.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -115,12 +115,12 @@ nrel_disease
 => nrel_first_domain: nrel_symptom;
 => nrel_second_domain: diagnosis;;   
 
-drug
+medication
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [медикамент]
             (*<-lang_ru;;*);
-          [drug]
+          [medication]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -130,7 +130,7 @@ drug
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Drug_idtf.html" (*
+                    -> rrel_example: "file://definition/medication.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -152,7 +152,7 @@ prescription
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Prescription_idtf.html" (*
+                    -> rrel_example: "file://definition/prescription.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -174,7 +174,7 @@ doctor
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Doctor_idtf.html" (*
+                    -> rrel_example: "file://definition/doctor.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -196,7 +196,7 @@ patient
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Patient_idtf.html" (*
+                    -> rrel_example: "file://definition/patient.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -223,7 +223,7 @@ nrel_disability
                 [Опр. (инвалидность)] (* <- lang_ru;; *);; 
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Disability_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_disability.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -247,7 +247,7 @@ diagnosis
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Diagnosis_idtf.html" (*
+                    -> rrel_example: "file://definition/diagnosis.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -274,7 +274,7 @@ nrel_rehabilitation
                 [Опр. (реабилитация)] (* <- lang_ru;; *);; 
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Rehabilitation_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_rehabilitation.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -302,7 +302,7 @@ nrel_diagnostics
                 [Опр. (диагностика)] (* <- lang_ru;; *);; 
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Diagnostics_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_diagnostics.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -331,7 +331,7 @@ nrel_prevention
                 [Опр. (профилактика)] (* <- lang_ru;; *);; 
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Prevention_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_prevention.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -340,33 +340,6 @@ nrel_prevention
 => nrel_first_domain: patient;
 => nrel_second_domain: health;;
 
-nrel_examination
-<-sc_node_norole_relation;
-<- binary_relation;
-<- oriented_relation;
-<- antireflexive_relation;
-<- antisymmetric_relation;
-<- antitransitive_relation;
-=> nrel_main_idtf:
-	[обследование*]
-	(* <- lang_ru;;	*);
-        [examination*]
-        (* <- lang_en;;*);
-  <- rrel_key_sc_element: ... 
-        (*
-	        <- definition;;
-            => nrel_main_idtf:
-                [Опр. (обследование)] (* <- lang_ru;; *);; 
-            <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTML/Nrel_Examination_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);
-=> nrel_first_domain: nrel_disease;
-=> nrel_second_domain: nrel_diagnostics;;
 
 nrel_symptom
  <-sc_node_norole_relation;
@@ -387,7 +360,7 @@ nrel_symptom
                 [Опр. (симптом)] (* <- lang_ru;; *);; 
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Symptom_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_symptom.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -415,16 +388,28 @@ nrel_syndrome
                 [Опр. (синдром)] (* <- lang_ru;; *);;
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Syndrome_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_syndrome.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+
+                <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(медицина)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://definition/nrel_syndrome_statement.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
         *);
 => nrel_first_domain: nrel_disease;
 => nrel_second_domain: nrel_symptom;;   
 
-nrel_cure
+nrel_treatment
 <-sc_node_norole_relation;
 <- binary_relation;
 <- oriented_relation;
@@ -434,7 +419,7 @@ nrel_cure
 => nrel_main_idtf:
 	[лечение*]
 	(* <- lang_ru;;	*);
-        [cure*]
+        [treatment*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -443,7 +428,7 @@ nrel_cure
                 [Опр. (лечение)] (* <- lang_ru;; *);;
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Cure_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_treatment.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -452,7 +437,7 @@ nrel_cure
 => nrel_first_domain: nrel_disease;
 => nrel_second_domain: drug;; 
 
-nrel_active_substance
+nrel_auxiliary_substance
 <-sc_node_norole_relation;
 <- binary_relation;
 <- oriented_relation;
@@ -460,18 +445,18 @@ nrel_active_substance
 <- antisymmetric_relation;
 <- antitransitive_relation;
 => nrel_main_idtf:
-	[действующее вещество*]
+	[вспомогательное вещество*]
     (* <- lang_ru;;	*);
-        [active substance*]
+        [auxiliary substance*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
 	        <- definition;;
             => nrel_main_idtf:
-                [Опр. (действующее вещество)] (* <- lang_ru;; *);;
+                [Опр. (вспомогательное вещество)] (* <- lang_ru;; *);;
             <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_Active_Substance_idtf.html" (*
+                    -> rrel_example: "file://definition/nrel_auxiliary_substance.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -479,63 +464,8 @@ nrel_active_substance
         *);
 
 => nrel_first_domain: substance;
-=> nrel_second_domain: drug;;      
+=> nrel_second_domain: medication;;     
 
-nrel_structure
-<-sc_node_norole_relation;
-<- binary_relation;
-<- oriented_relation;
-<- antireflexive_relation;
-<- antisymmetric_relation;
-<- antitransitive_relation;
-=> nrel_main_idtf:
-	[строение*]
-    (* <- lang_ru;;	*);
-        [structure*]
-        (* <- lang_en;;*);
-  <- rrel_key_sc_element: ... 
-        (*
-	        <- definition;;
-            => nrel_main_idtf:
-                [Опр. (строение)] (* <- lang_ru;; *);;
-            <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTML/Structure.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);
-=> nrel_first_domain: organ;
-=> nrel_second_domain: organism;;
-
-nrel_location
-<-sc_node_norole_relation;
-<- binary_relation;
-<- oriented_relation;
-<- antireflexive_relation;
-<- antisymmetric_relation;
-<- antitransitive_relation;
-=> nrel_main_idtf:
-	[месторасположение*]
-    (* <- lang_ru;;	*);
-        [location*]
-        (* <- lang_en;;*);
-  <- rrel_key_sc_element: ... 
-        (*
-	        <- definition;;
-            => nrel_main_idtf:
-                [Опр. (месторасположение)] (* <- lang_ru;; *);;
-            <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTML/Location.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);
-=> nrel_first_domain: organ;
-=> nrel_second_domain: organism;;
 
 blood
     <-sc_node_not_relation;
@@ -559,19 +489,31 @@ blood
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Blood_idtf.html" (*
+                    -> rrel_example: "file://definition/blood.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(кровь)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://definition/blood_statement.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
         *);;
 
-red_blood_cells
+erythrocyte
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [эритроциты]
             (*<-lang_ru;;*);
-          [red blood cells]
+          [erythrocyte]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -581,26 +523,30 @@ red_blood_cells
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Red_blood_cells_idtf.html" (*
+                    -> rrel_example: "file://definition/erythrocyte.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-                <- illustration;;
-            <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//Red_blood_cells.png"
+                 <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(эритроциты)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://definition/erythrocyte_statement.html"
                 (*
-                    => nrel_format: format_png;;
-                *);;
-                *);;
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
         *);;
 
-white_blood_cells
+leucocyte
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [лейкоциты]
             (*<-lang_ru;;*);
-          [white blood cells]
+          [leucocyte]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -610,26 +556,31 @@ white_blood_cells
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/White_blood_cells_idtf.html" (*
+                    -> rrel_example: "file://definition/leucocyte.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
 
-                <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//White_blood_cells.png"
+                <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(эритроциты)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://definition/leucocyte_statement.html"
                 (*
-                    => nrel_format: format_png;;
-                *);;
-                *);;
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
         *);;
 
-platelet
+platelets
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [тромбоциты]
             (*<-lang_ru;;*);
-          [platelet]
+          [platelets]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -639,62 +590,14 @@ platelet
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Platelet_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-            <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//Platelet.png"
-                (*
-                    => nrel_format: format_png;;
-                *);;
-                *);;
-        *);;
-
-urine
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-          [моча]
-            (*<-lang_ru;;*);
-          [urine]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (моча)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTML/Urine_idtf.html" (*
+                    -> rrel_example: "file://definition/platelets.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
         *);;
 
-analysis
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-          [анализ]
-            (*<-lang_ru;;*);
-          [analysis]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (анализ)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTML/Analysis_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);;
+
 
 immune_system
     <-sc_node_not_relation;
@@ -711,7 +614,7 @@ immune_system
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Immune_system_idtf.html" (*
+                    -> rrel_example: "file://definition/immune_system.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -733,7 +636,7 @@ chromosome
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Chromosome_idtf.html" (*
+                    -> rrel_example: "file://definition/chromosome.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -761,7 +664,7 @@ tissue
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Tissue_idtf.html" (*
+                    -> rrel_example: "file://definition/tissue.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
@@ -783,15 +686,10 @@ antibody
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Antibody_idtf.html" (*
+                    -> rrel_example: "file://definition/antibody.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-                <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//Antibody.png"
-                (*
-                    => nrel_format: format_png;;
-                *);;
-                *);;
+                
         *);;      
