@@ -641,12 +641,7 @@ chromosome
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-               <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//Chromosome.png"
-                (*
-                    => nrel_format: format_png;;
-                *);;
-                *);; 
+               
         *);;
 
 tissue
